@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: xwskx/github-action-test/github-action-test/.github/workflows/reusable-test.yml@main
+    uses: xwskx/github-action-test/.github/workflows/reusable-test.yml@main
     with:
       username: mona

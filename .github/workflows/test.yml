@@ -1,0 +1,11 @@
+name: Octo Organization CI
+
+on:
+  push:
+    branches: main
+
+jobs:
+  call-workflow-passing-data:
+    uses: xwskx/github-action-test/github-action-test/.github/workflows/reusable-test.yml
+    with:
+      username: mona

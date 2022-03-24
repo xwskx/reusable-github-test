@@ -8,4 +8,4 @@ jobs:
   call-workflow-passing-data:
     uses: xwskx/github-action-test/.github/workflows/reusable-test.yml@main
     with:
-      usernam: mona
+      username: mona
